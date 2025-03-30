@@ -1,0 +1,49 @@
+@import url("reset.css");
+*{
+    color: brown;
+}
+h1{
+    color: yellowgreen;
+}
+h2{
+    color: firebrick;
+}
+a{
+    color: navy;
+}
+a.first_link{
+    color: fuchsia;
+}
+.article p{
+    color: red;
+}
+.article .text{
+    color: darkcyan;
+}
+.article span{
+    color: gold;
+}
+.links_info.links_page{
+    color: hotpink;
+}
+.links_info .links_up{
+    color: darkgoldenrod;
+}
+.list .item{
+    color: aquamarine;
+}
+.article_test > p {
+	color: gray;
+}
+.article_test2 + p {
+    color: blue;
+}
+.article_test3 p {
+    color: black;
+}
+#special_color{
+    color: darkkhaki;
+}
+[class*="es"] {
+    color: coral;
+}
