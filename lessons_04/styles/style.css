@@ -1,0 +1,64 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body{
+    font-family: "KoPubBatang" serif;
+    font-size: 15px;
+	color: #2c2c2c;
+}
+.title {
+	font-size: 20px;
+}
+.first_block>p{
+    font-style: italic;
+    word-spacing: 5px;
+    white-space: nowrap;
+    color: aqua;
+    text-transform: lowercase;
+    text-align: justify;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.name_of_flower{
+    color: navajowhite;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 5px 5px 2px greenyellow;
+    text-transform: uppercase;
+}
+.second_block{
+    color: blue;
+    font-style: oblique;
+    line-height: 1.2px;
+    word-spacing: 15px;
+}
+.container-text{
+    font-family: Poppins cursive;
+    color: #808080;
+    font-size: 18px;
+    font-weight: 400;
+}
+.text_general{
+    text-align: right;
+}
+.trird_block{
+    text-decoration: underline;
+    text-decoration-style:wavy;
+    text-transform: capitalize;
+}
+.text_decoration{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+p{
+    line-height: 1.37;
+}
+ul{
+    letter-spacing:10px;
+    text-shadow: 2px 3px 2px gold;
+    font-weight: 700;
+}
+a{
+    text-decoration: underline;
+    color: hotpink;
+}
