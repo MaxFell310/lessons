@@ -1,0 +1,150 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+body{
+    color: #808080;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+/* Ecobazar section */
+.wrapper{
+    overflow: clip;
+	min-height: 100%;
+    margin-top: 40px;
+}
+.ecobazar{
+    max-width: 648px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+.general_text p+p{
+    margin-top: 24px;
+    margin-bottom: 20px;
+    width: 648px;
+    display: inline-block;
+}
+.main_list{
+    margin-bottom: 20px;
+}
+.list_item{
+    margin-bottom: 14px;
+    padding-left: 28px;
+    min-height: 20px;
+    background: url(../img/Check.svg) no-repeat 0 0;
+}
+
+/* Hydra section */
+
+.hydra{
+    background: #302C42;
+    color: rgba(255, 255, 255, 0.95);
+    font-family: Montserrat;
+    line-height: normal;
+    font-style: normal;
+}
+.main_hydra{
+    width: 1272px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+.contact_links{
+    padding: 20px 40px;
+    border-radius: 90px;
+    background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+    margin-bottom: 60px;
+    height: 167px;
+}
+.contact_item{
+    display: inline-block;
+    max-width: 1272px;
+}
+.contact_items{
+    margin: 0 -20px;
+}
+.contact-item {
+    display: inline-block;
+}
+.first{
+    text-align: left;
+    padding: 30px 20px;
+}
+.second{
+    text-align: center;
+    border-left: 1px solid rgba(192, 183, 232, 0.33);
+    border-right: 1px solid rgba(192, 183, 232, 0.33);
+    padding: 30px 70px 30px 30px;
+}
+.third{
+    text-align: right;
+    padding: 30px 20px 30px 40px;
+}
+.image_info{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.text_info{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.text_info a{
+    font-size: 24px;
+    font-weight: 700;
+}
+.text_info p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.about_section{
+    text-align: center;
+    background: url(../img/Vector1.svg) no-repeat top center,
+                url(../img/Vector2.svg) no-repeat bottom center;
+}
+.about_main{
+    vertical-align: top;
+}
+.hydra_content{
+    display: inline-block;
+    text-align: left;
+    max-width: 630px;
+    padding: 50px 108px 70px 84px;
+}
+.about_title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.about_subtitle{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 42px;
+}
+.about_text{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+.img_man{
+    max-width: 546px;
+    border-radius: 240px 100px;
+}
+.contact_button{
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    width: 214px;
+    height: 48px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #343045;
+    padding: 17px 40px;
+}
