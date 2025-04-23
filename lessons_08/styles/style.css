@@ -1,0 +1,27 @@
+@import url(reset.css);
+
+body{
+    background: linear-gradient(90deg,rgba(181, 173, 16, 1) 0%, rgba(121, 9, 80, 1) 50%, rgba(255, 0, 251, 1) 100%);
+    color: #fff;
+    font-size: 25px;
+}
+h1{
+    color: dodgerblue;
+    font-size: 45px;
+    padding: 20px;
+    text-align: center;
+}
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.photos_icons{
+    background: palevioletred;
+    padding: 20px;
+}
+.item:not(last-child){
+    margin-bottom: 20px;
+}
+.man_in_glasses{
+    border-radius: 151px 0 151px 0 ;
+}
